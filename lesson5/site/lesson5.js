@@ -34,7 +34,7 @@ request.get('http://cnodejs.org')
                 hrefs.push(url.resolve(urlFront, $(element).attr('href')));
             });
 
-            async.mapLimit(hrefs,5, function(href, callback) {
+            async.mapLimit(hrefs, 5, function(href, callback) {
                 irrfetchUrl(href, callback);
             }, function(err, contents) {
                 console.log('finale:');
