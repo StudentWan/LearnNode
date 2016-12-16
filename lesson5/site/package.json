@@ -1,0 +1,16 @@
+{
+  "name": "lesson5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lesson5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "cheerio": "^0.22.0",
+    "superagent": "^3.3.0"
+  }
+}
