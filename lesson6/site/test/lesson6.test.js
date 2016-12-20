@@ -15,7 +15,7 @@ describe('test/lesson6.test.js', function() {
     });
 
     it('should throw when n > 10', function() {
-        (function() {
+        (function() { //throw 是 throw 到上层的function，因此要加一个闭包 不然就 throw 到的it的回调函数上去了
             lesson6.fibonacci(11);
         }).should.throw('n should <= 10');
     });
